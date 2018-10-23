@@ -15,7 +15,7 @@ describe("Vue component tests", () => {
   });
 
   it("The component should have an newfunction function.", () => {
-    expect(typeof App.methods.newfunctoin).toBe("function");
+    expect(typeof App.methods.newfunction).toBe("function");
   });
 
   it("has a created hook", () => {
